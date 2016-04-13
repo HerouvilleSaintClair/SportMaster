@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="exemple.sportmaster_sax.Controlleur.Page_Choisir_base">
+    <exemple.sportmaster_sax.Model.MultiSelectSpinner
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:id="@+id/spinner"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choisir une trajet comme base"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Affichier Diagramme"
+        android:id="@+id/button_choisir_base"
+        android:background="@drawable/button_style"
+        android:width="250px"
+        android:height="90px"
+        android:textColor="#E0FFFF"
+        android:textSize="30px"
+        android:onClick="toUnTrajetBase"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

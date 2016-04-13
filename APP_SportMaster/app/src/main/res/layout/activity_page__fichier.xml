@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="exemple.sportmaster_sax.Controlleur.Page_Fichier">
+
+    <exemple.sportmaster_sax.Model.MultiSelectSpinner
+        android:layout_width="match_parent"
+        android:layout_height="900px"
+        android:id="@+id/spinner"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="charger"
+        android:id="@+id/button_lire_les_fichiers"
+        android:onClick="toGetSource"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="124dp"
+        android:background="@drawable/button_style"
+        android:width="300px"
+        android:height="90px"
+        android:textColor="#E0FFFF"
+        android:textSize="30px"/>
+
+</RelativeLayout>

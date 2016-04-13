@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Controlleur.Page_Accueil">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:minWidth="600px"
+        android:minHeight="600px"
+        android:layout_marginBottom="148dp"
+        android:layout_above="@+id/button_accueil_manuel"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aide"
+        android:id="@+id/button_accueil_manuel"
+        android:background="@drawable/button_style"
+        android:width="300px"
+        android:height="90px"
+        android:textColor="#E0FFFF"
+        android:textSize="50px"
+        android:gravity="center"
+        android:layout_marginBottom="309dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="toAide"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Démarrer"
+        android:id="@+id/button_accueil_demarrer"
+        android:background="@drawable/button_style"
+        android:width="300px"
+        android:height="90px"
+        android:textColor="#E0FFFF"
+        android:textSize="50px"
+        android:gravity="center"
+        android:layout_marginTop="115dp"
+        android:onClick="toFichier"
+        android:layout_alignTop="@+id/button_accueil_manuel"
+        android:layout_alignStart="@+id/button_accueil_manuel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="À Propos"
+        android:id="@+id/button_accueil_a_propos"
+        android:background="@drawable/button_style"
+        android:width="300px"
+        android:height="90px"
+        android:textColor="#E0FFFF"
+        android:textSize="50px"
+        android:gravity="center"
+        android:onClick="toPropos"
+        android:layout_below="@+id/button_accueil_demarrer"
+        android:layout_alignStart="@+id/button_accueil_demarrer"
+        android:layout_marginTop="17dp" />
+
+
+</RelativeLayout>

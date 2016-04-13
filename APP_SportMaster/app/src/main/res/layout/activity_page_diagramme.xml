@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="exemple.sportmaster_sax.Controlleur.Page_diagramme">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="&lt;DISTANCE&amp;TEMPS>\n permet obtenir une diagramme de relation entre distance et temps\n\n&lt;VITESSE&amp;TEMPS>\n permet obtenir une diagramme de relation entre vitesse et temps\n\n&lt;DANS UN TRAJET NORME>\n permet obtenir une diagramme de relation entre une delta-vitesse en base une l'autre trajet"
+        android:id="@+id/textView_diagramme"
+        android:layout_marginTop="57dp"
+        android:width="400px"
+        android:height="400px"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="distance &amp; temps"
+        android:id="@+id/button_diagramme_distance_temps"
+        android:layout_below="@+id/textView_diagramme"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style"
+        android:width="300px"
+        android:height="90px"
+        android:textColor="#E0FFFF"
+        android:textSize="30px"
+        android:layout_marginBottom="10px"
+        android:onClick="toDistance_Temps"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vitesse &amp; temps"
+        android:id="@+id/button_diagramme_vitesse_temps"
+        android:layout_below="@+id/button_diagramme_distance_temps"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style"
+        android:width="300px"
+        android:height="90px"
+        android:textColor="#E0FFFF"
+        android:textSize="30px"
+        android:layout_marginBottom="10px"
+        android:onClick="toVitesse_temps"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dans un trajet norme"
+        android:id="@+id/button_diagramme_trajet_norme"
+        android:layout_below="@+id/button_diagramme_vitesse_temps"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style"
+        android:width="300px"
+        android:height="90px"
+        android:textColor="#E0FFFF"
+        android:textSize="30px"
+        android:onClick="toChoisir_base"/>
+</RelativeLayout>
