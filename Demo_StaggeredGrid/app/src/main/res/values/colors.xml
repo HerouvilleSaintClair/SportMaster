@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bloc_color_1">#F08080</color>
+    <color name="bloc_color_2">#BDB76B</color>
+    <color name="bloc_color_3">#FFCC66</color>
+    <color name="bloc_color_4">#FF6666</color>
+    <color name="bloc_color_5">#6600FF</color>
+    <color name="bloc_color_6">#33CC99</color>
+    <color name="bloc_color_7">#FF9900</color>
+    <color name="bloc_color_8">#FF66FF</color>
+    <color name="bloc_color_9">#6699FF</color>
+    <color name="bloc_color_10">#FFCC00</color>
+    <color name="bloc_color_11">#99CCFF</color>
+    <color name="bloc_color_12">#ADFF2F</color>
+</resources>
